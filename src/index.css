@@ -17,7 +17,7 @@
 }
 
 .nav-link h3 {
-  color: #fbd011d7;
+  color: #feba17;
   font-weight: 900;
   font-size: 1rem;
 }
@@ -26,6 +26,10 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 3rem;
+}
+
+.nav-bar h2 {
+  margin-top: 0.3rem;
 }
 
 .button {
@@ -37,9 +41,93 @@
 }
 
 .yellow-btn {
-  background-color: #fbd011d7;
+  background-color: #feba17;
 }
 
 .black-btn {
   background-color: black;
+}
+
+.slider {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  padding-inline: 3rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.slider-left {
+  z-index: 2;
+  padding-right: 5rem;
+  background-color: white;
+  position: relative;
+  transform: translateX(40px);
+}
+
+.slider-right {
+  position: relative;
+  z-index: 1;
+}
+
+.slider-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slider-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.slider-text span {
+  color: #feba17;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding-right: 9px;
+}
+
+.slider-heading-1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.slider-heading-2 {
+  color: #feba17;
+  font-weight: 800;
+  font-size: 5rem;
+}
+
+.slider-para {
+  padding-block: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.slider-btn {
+  background-color: #feba17;
+  padding: 1rem 3rem;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 7rem;
+  cursor: pointer;
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slider-slide {
+  min-width: 100%;
+  box-sizing: border-box;
 }

@@ -4,7 +4,7 @@ import Navlink from "./NavLink";
 const Navbar = () => {
   return (
     <div className="nav-bar">
-      <p>Cargo</p>
+      <h2>Cargo</h2>
       <Navlink name="HOME" link="/" />
       <Navlink name="PAGES" link="/pages" />
       <Navlink name="TRACKING" link="/tracking" />
