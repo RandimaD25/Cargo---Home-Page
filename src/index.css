@@ -342,3 +342,45 @@
   justify-content: space-between;
   padding: 2rem 10rem 4rem 10rem;
 }
+
+/* testimonials section */
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2rem 8rem;
+  gap: 2rem;
+}
+
+.feedback-heading {
+  color: gray;
+  padding-top: 1rem;
+}
+
+.feedback {
+  background-color: rgb(226, 223, 223);
+  padding: 2rem;
+  margin-top: 3rem;
+  font-size: 0.8rem;
+}
+
+.feedback-name {
+  font-weight: 500;
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.feedback-position {
+  font-size: 0.8rem;
+  color: gray;
+  text-align: right;
+}
+
+.testi-component {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 1rem;
+}
+
+.why-choose-us {
+  padding-bottom: 2rem;
+}
