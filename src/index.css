@@ -145,6 +145,7 @@
   margin-top: 3rem;
   gap: 6rem;
   padding: 4rem;
+  align-items: center;
 }
 
 .welcome-left {
@@ -207,4 +208,117 @@
 
 .welcome-count {
   font-size: 2rem;
+}
+
+/* our service section */
+
+.service-card {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  text-align: left;
+  gap: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-card div img {
+  object-fit: cover;
+}
+
+.service-section {
+  /* justify-content: center; */
+  text-align: center;
+  padding-block: 4rem;
+}
+
+.service-title {
+  font-weight: 500;
+  color: green;
+  font-size: 1.3rem;
+}
+
+.service-text {
+  padding-block: 1rem;
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.read-more {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.service-cards-section {
+  /* justify-content: center; */
+  display: flex;
+  padding-block: 2rem;
+  gap: 2rem;
+}
+
+.solution-bottom {
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.solution-bottom-text1 {
+  color: gray;
+}
+
+.solution-bottom-text2 {
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+.service-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 6rem;
+}
+
+.service-cards-container {
+  width: 100%;
+  margin-top: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.service-cards-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.service-cards-group {
+  display: flex;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  margin-bottom: 3rem;
+  gap: 1rem;
+}
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
 }

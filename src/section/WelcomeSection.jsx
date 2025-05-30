@@ -5,7 +5,7 @@ const WelcomeSection = () => {
     <div className="welcome-section">
       <div className="welcome-left">
         <img className="welcome-img1" src="welcome-1.jpg" alt="" />
-        <img className="welcome-img2" src="welcome-2.jpg" alt="" />
+        {/* <img className="welcome-img2" src="welcome-2.jpg" alt="" /> */}
         <div className="welcome-msg">
           <p className="welcome-count">15350+</p>
           <p>Clients Worldwide</p>
