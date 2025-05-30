@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import SliderSection from "./section/SliderSection";
+import WelcomeSection from "./section/WelcomeSection";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div>
         <Navbar />
         <SliderSection />
+        <WelcomeSection />
       </div>
     </>
   );

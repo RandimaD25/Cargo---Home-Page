@@ -6,6 +6,8 @@
   font-family: Outfit;
 }
 
+/* nav bar */
+
 .nav-link {
   display: flex;
   text-decoration: none;
@@ -38,6 +40,7 @@
   color: white;
   font-size: 0.8rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .yellow-btn {
@@ -47,6 +50,8 @@
 .black-btn {
   background-color: black;
 }
+
+/* slider section */
 
 .slider {
   display: grid;
@@ -130,4 +135,76 @@
 .slider-slide {
   min-width: 100%;
   box-sizing: border-box;
+}
+
+/* welcome section */
+
+.welcome-section {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-top: 3rem;
+  gap: 6rem;
+  padding: 4rem;
+}
+
+.welcome-left {
+  position: relative;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.welcome-right {
+  align-items: center;
+}
+
+.welcome-right h2 {
+  font-size: 3rem;
+}
+
+.welcome-right h2 span {
+  color: #f97a00;
+}
+
+.welcome-right p {
+  margin-block: 2rem;
+}
+
+.welcome-para {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.welcome-btn {
+  color: green;
+  font-weight: 600;
+  padding-inline: 1rem;
+}
+
+.welcome-img1 {
+  position: absolute;
+  bottom: -130px;
+  right: -180px;
+  width: 400px;
+  z-index: 2;
+}
+
+.welcome-img2 {
+  display: block;
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
+.welcome-msg {
+  background-color: #f97a00;
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  z-index: 2;
+  bottom: -100px;
+  right: -100px;
+}
+
+.welcome-count {
+  font-size: 2rem;
 }
