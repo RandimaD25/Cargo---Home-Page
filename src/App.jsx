@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import ClientLogoSection from "./section/ClientLogoSection";
+import FooterSection from "./section/FooterSection";
 import NewsSection from "./section/NewsSection";
 import ServicesSection from "./section/ServicesSection";
 import SliderSection from "./section/SliderSection";
@@ -19,6 +20,7 @@ function App() {
         <TestimonialsSection />
         <ClientLogoSection />
         <NewsSection />
+        <FooterSection />
       </div>
     </>
   );
