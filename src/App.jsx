@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import ClientLogoSection from "./section/ClientLogoSection";
+import NewsSection from "./section/NewsSection";
 import ServicesSection from "./section/ServicesSection";
 import SliderSection from "./section/SliderSection";
 import StatsSection from "./section/StatsSection";
@@ -17,6 +18,7 @@ function App() {
         <StatsSection />
         <TestimonialsSection />
         <ClientLogoSection />
+        <NewsSection />
       </div>
     </>
   );
