@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./section/Navbar";
 import ClientLogoSection from "./section/ClientLogoSection";
 import FooterSection from "./section/FooterSection";
 import NewsSection from "./section/NewsSection";

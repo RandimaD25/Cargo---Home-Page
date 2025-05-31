@@ -185,9 +185,9 @@
 
 .welcome-img1 {
   position: absolute;
-  bottom: -130px;
-  right: -180px;
-  width: 400px;
+  bottom: -120px;
+  right: 290px;
+  width: 200px;
   z-index: 2;
 }
 
@@ -196,16 +196,45 @@
   width: 400px;
   height: auto;
   max-width: 100%;
+  margin-left: 10rem;
 }
 
 .welcome-msg {
   background-color: #f97a00;
-  padding: 3rem;
+  padding: 2rem;
+  width: 10rem;
   color: white;
   text-align: center;
   z-index: 2;
   bottom: -100px;
-  right: -100px;
+  right: -90px;
+}
+
+.message-container {
+  position: absolute;
+  top: 13rem;
+  right: 5rem;
+  width: fit-content;
+  margin: 2rem;
+}
+
+.triangle {
+  position: absolute;
+  top: -15px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #f97a00;
+}
+
+.triangle-center {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #f97a00;
 }
 
 .welcome-count {

@@ -4,11 +4,16 @@ const WelcomeSection = () => {
   return (
     <div className="welcome-section">
       <div className="welcome-left">
+        <img className="welcome-img2" src="welcome-2.jpg" alt="" />
         <img className="welcome-img1" src="welcome-1.jpg" alt="" />
-        {/* <img className="welcome-img2" src="welcome-2.jpg" alt="" /> */}
-        <div className="welcome-msg">
-          <p className="welcome-count">15350+</p>
-          <p>Clients Worldwide</p>
+        <div className="message-container">
+          <div className="triangle">
+            {/* <div className="triangle-center"></div> */}
+            <div className="welcome-msg">
+              <p className="welcome-count">15,350+</p>
+              <p>Clients Worldwide</p>
+            </div>
+          </div>
         </div>
       </div>
       <div className="welcome-right">

@@ -4,10 +4,17 @@ import { NavLink } from "react-router-dom";
 
 const Navlink = ({ name, link }) => {
   return (
-    <NavLink className="nav-link" to={link}>
-      <h3>|</h3>
-      <p>{name}</p>
-      <IoIosArrowDown />
+    <NavLink
+      className={({ isActive }) => `nav-link ${isActive ? "active" : ""}`}
+      to={link}
+    >
+      {({ isActive }) => (
+        <>
+          {isActive && <h3>|</h3>}
+          <p>{name}</p>
+          <IoIosArrowDown />
+        </>
+      )}
     </NavLink>
   );
 };
