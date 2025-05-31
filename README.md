@@ -14,6 +14,7 @@ This project is a Cargo home page developed using **React.js (JavaScript)** and 
 
 - React.js (JavaScript)
 - CSS3
+- React Icons library (For Icons)
 
 ## Features
 
