@@ -387,3 +387,11 @@
 .why-choose-us {
   padding-bottom: 2rem;
 }
+
+/* client logo section */
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  background-color: #fbfbfb;
+}

@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import ClientLogoSection from "./section/ClientLogoSection";
 import ServicesSection from "./section/ServicesSection";
 import SliderSection from "./section/SliderSection";
 import StatsSection from "./section/StatsSection";
@@ -15,6 +16,7 @@ function App() {
         <ServicesSection />
         <StatsSection />
         <TestimonialsSection />
+        <ClientLogoSection />
       </div>
     </>
   );
