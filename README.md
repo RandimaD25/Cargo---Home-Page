@@ -24,6 +24,21 @@ This project is a Cargo home page developed using **React.js (JavaScript)** and 
 ## Setup Instructions
 
 1. Clone the repository or download the project folder.
-2. Navigate to the project directory -> cd project-folder-name
-3. Install Dependencies -> npm install
-4. Start the development server -> npm run dev
+2. Navigate to the project directory:
+
+```bash
+   cd project-folder-name
+```
+
+3. Install Dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+
+```
