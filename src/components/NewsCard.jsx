@@ -9,7 +9,7 @@ const NewsCard = ({ image, date, month, title, text, count }) => {
           <p className="news-date-num">{date}</p>
           <p className="news-month">{month}</p>
         </div>
-        <img src={image} width={300} height={250} alt="" />
+        <img src={image} alt="" />
       </div>
       <div className="news-right">
         <p className="news-title">{title}</p>

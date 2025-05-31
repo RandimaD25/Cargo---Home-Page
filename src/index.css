@@ -238,9 +238,9 @@
 .service-card {
   display: flex;
   align-items: center;
-  width: 40%;
   text-align: left;
   gap: 1rem;
+  width: 40%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -248,8 +248,11 @@
   object-fit: cover;
 }
 
+.service-right {
+  padding-inline: 2rem;
+}
+
 .service-section {
-  /* justify-content: center; */
   text-align: center;
   padding-block: 4rem;
 }
@@ -276,7 +279,6 @@
 }
 
 .service-cards-section {
-  /* justify-content: center; */
   display: flex;
   padding-block: 2rem;
   gap: 2rem;
@@ -316,12 +318,25 @@
 .service-bottom {
   display: flex;
   justify-content: space-between;
-  padding-inline: 6rem;
+  padding-inline: 9rem;
+}
+
+.service-image {
+  width: 220px;
+  height: 190px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .service-cards-container {
   width: 100%;
-  margin-top: 2rem;
   overflow: hidden;
   position: relative;
 }
@@ -329,14 +344,16 @@
 .service-cards-slider {
   display: flex;
   transition: transform 0.5s ease-in-out;
+  width: 100%;
 }
 
 .service-cards-group {
   display: flex;
-  flex-shrink: 0;
-  box-sizing: border-box;
-  margin-bottom: 3rem;
+  margin-block: 3rem;
+  justify-content: center;
   gap: 1rem;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 .slider-dots {
@@ -481,6 +498,17 @@
 
 .news-left {
   color: white;
+  width: 250px;
+  height: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.news-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .news-left img {
@@ -498,7 +526,7 @@
 }
 
 .news-right {
-  padding: 2rem;
+  padding: 1rem;
   color: white;
   text-align: left;
 }
