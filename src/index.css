@@ -196,7 +196,7 @@
   width: 400px;
   height: auto;
   max-width: 100%;
-  margin-left: 10rem;
+  margin-left: 6rem;
 }
 
 .welcome-msg {
@@ -227,14 +227,6 @@
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-bottom: 20px solid #f97a00;
-}
-
-.triangle-center {
-  width: 0;
-  height: 0;
-  border-left: 25px solid transparent;
-  border-right: 25px solid transparent;
-  border-bottom: 50px solid #f97a00;
 }
 
 .welcome-count {
@@ -356,11 +348,42 @@
 
 /* stats section */
 .stat-component {
+  position: relative;
+  text-align: center;
+  background-color: #fbfbfb;
+  overflow: hidden;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
   width: 10rem;
+  padding: 4rem 1rem;
   align-items: center;
   color: rgb(3, 3, 73);
+}
+
+.stat-shadow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.03);
+  z-index: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.stat-content {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  gap: 1rem;
+}
+
+.stat-content h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
 }
 
 .stat-component p {
@@ -371,7 +394,7 @@
 .stat-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 10rem 4rem 10rem;
+  padding: 1rem 10rem 1rem 10rem;
   background-color: #fbfbfb;
 }
 
@@ -389,10 +412,21 @@
 }
 
 .feedback {
-  background-color: rgb(226, 223, 223);
+  background-color: #e2e1e1;
   padding: 2rem;
   margin-top: 3rem;
   font-size: 0.8rem;
+  position: relative;
+}
+
+.feedback-quote {
+  position: absolute;
+  background-color: maroon;
+  top: -25px;
+  left: -15px;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
 
 .feedback-name {
